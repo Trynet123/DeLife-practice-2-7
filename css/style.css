@@ -4,7 +4,9 @@ body {
   letter-spacing: 0.1em;
   line-height: 1.7;
   color: #000;
-  font-family: "Yu Gothic", 'Noto Sans JP', "ヒラギノ角ゴシック", "Hiragino Sans", "ヒラギノ角ゴ ProN W3", "Hiragino Kaku Gothic ProN", "游ゴシック", YuGothic, "メイリオ", Meiryo, '源ノ角ゴシック JP', sans-serif;
+  font-family: "Yu Gothic", "Noto Sans JP", "ヒラギノ角ゴシック",
+    "Hiragino Sans", "ヒラギノ角ゴ ProN W3", "Hiragino Kaku Gothic ProN",
+    "游ゴシック", YuGothic, "メイリオ", Meiryo, "源ノ角ゴシック JP", sans-serif;
   font-weight: 400;
 }
 
@@ -17,7 +19,7 @@ body {
 /* 共通 */
 .section-title {
   padding-bottom: 7px;
-  font-family: 'Roboto', sans-serif;
+  font-family: "Roboto", sans-serif;
   font-weight: 600;
   line-height: 1.5;
 }
@@ -64,7 +66,7 @@ body {
 }
 
 .header-gnav-item > a {
-  font-family: 'Roboto', sans-serif;
+  font-family: "Roboto", sans-serif;
   color: #000;
   font-weight: 600;
   text-decoration: none;
@@ -82,7 +84,7 @@ body {
 }
 
 .mv-container::after {
-  content: '';
+  content: "";
   position: absolute;
   top: 10px;
   max-width: 1260px;
@@ -97,7 +99,7 @@ body {
   margin: 0 auto;
   padding-top: 30px;
   padding-left: 48px;
-	padding-right: 48px;
+  padding-right: 48px;
   align-items: center;
 }
 
@@ -142,7 +144,7 @@ body {
 }
 
 .scroll-icon::after {
-  content: '';
+  content: "";
   width: 1px;
   height: 30px;
   background-color: white;
@@ -152,17 +154,17 @@ body {
 
 /* Aboutセクション */
 .about {
-  background-color: #EC5F5C;
+  background-color: #ec5f5c;
 }
 
 /* 2-5コピー */
 .about-container {
-	display: block;
-	box-sizing: content-box;
-	margin: 0 auto;
-	max-width: 1040px;
-	padding-left: 48px;
-	padding-right: 48px;
+  display: block;
+  box-sizing: content-box;
+  margin: 0 auto;
+  max-width: 1040px;
+  padding-left: 48px;
+  padding-right: 48px;
 }
 
 .about-box {
@@ -187,7 +189,7 @@ body {
 }
 
 .m-about::after {
-  content: '';
+  content: "";
   width: 75px;
   height: 1px;
   display: block;
@@ -216,11 +218,11 @@ body {
 }
 
 .m-feature::after {
-  content: '';
+  content: "";
   display: block;
   width: 75px;
   height: 1px;
-  background-color: #EC5F5C;
+  background-color: #ec5f5c;
   margin-left: 10px;
 }
 
@@ -247,8 +249,8 @@ body {
 
 .feature-txt-num {
   font-size: 40px;
-  font-family: 'Roboto', sans-serif;
-  color: #EC5F5C;
+  font-family: "Roboto", sans-serif;
+  color: #ec5f5c;
 }
 
 .feature-txt-box {
@@ -262,7 +264,7 @@ body {
 
 /* FAQセクション */
 .faq {
-  background-color: #2F2E41;
+  background-color: #2f2e41;
   color: white;
 }
 
@@ -279,11 +281,11 @@ body {
 }
 
 .m-faq::after {
-  content: '';
+  content: "";
   display: block;
   width: 75px;
   height: 1px;
-  background-color: #EC5F5C;
+  background-color: #ec5f5c;
   margin-left: 10px;
 }
 
@@ -303,7 +305,7 @@ body {
 }
 
 .question::before {
-  content: '';
+  content: "";
   display: inline-block;
   width: 28px;
   height: 2px;
@@ -313,7 +315,7 @@ body {
 }
 
 .question:not(:first-child)::after {
-  content: '';
+  content: "";
   display: inline-block;
   width: 28px;
   height: 2px;
@@ -340,7 +342,7 @@ body {
 .bg {
   width: 100%;
   height: 220px;
-  background-color: #FFF8F8;
+  background-color: #fff8f8;
   position: absolute;
   bottom: 100px;
 }
@@ -359,11 +361,11 @@ body {
 }
 
 .m-devices::after {
-  content: '';
+  content: "";
   display: block;
   width: 75px;
   height: 1px;
-  background-color: #EC5F5C;
+  background-color: #ec5f5c;
   margin-left: 10px;
 }
 
@@ -400,7 +402,7 @@ body {
 
 /* bottom */
 .cv {
-  background-color: #EC5F5C;
+  background-color: #ec5f5c;
   color: white;
 }
 
@@ -442,4 +444,44 @@ body {
 
 .cv-btn-2 {
   margin-left: 20px;
+}
+
+/* フッター */
+footer {
+  color: white;
+  background-color: #2f2e41;
+  margin: 0 auto;
+}
+
+.footer-container {
+  max-width: 1260px;
+  height: 82px;
+  padding: 40px 90px 20px;
+  display: flex;
+  justify-content: space-between;
+}
+
+.footer-nav {
+  display: flex;
+  flex-wrap: wrap;
+  width: 486px;
+}
+
+.footer-nav > p {
+  padding-right: 20px;
+  display: flex;
+  align-items: center;
+}
+
+.footer-nav > p::after {
+  content: "";
+  width: 1px;
+  height: 15px;
+  background-color: white;
+  display: block;
+  margin-left: 20px;
+}
+
+.copyright {
+  color: #515061;
 }
