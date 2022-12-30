@@ -371,6 +371,14 @@ body {
   position: relative;
 }
 
+.devices-item-content {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  text-align: center;
+}
+
 .device-img {
   width: 200px;
   height: 130px;
