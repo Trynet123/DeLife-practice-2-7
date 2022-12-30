@@ -20,7 +20,10 @@ body {
   padding-bottom: 7px;
   font-family: 'Roboto', sans-serif;
   font-weight: 600;
+  line-height: 1.5;
 }
+
+/* 共通終わり */
 
 /* ヘッダー */
 .header {
