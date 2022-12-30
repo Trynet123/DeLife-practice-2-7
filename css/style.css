@@ -181,12 +181,18 @@ body {
   color: white;
 }
 
+.m-about {
+  display: flex;
+  align-items: center;
+}
+
 .m-about::after {
   content: '';
   width: 75px;
   height: 1px;
   display: block;
   background-color: white;
+  margin-left: 10px;
 }
 
 .about-description {
@@ -198,6 +204,8 @@ body {
 .feature-container {
   max-width: 1260px;
   margin: 0 auto;
+  display: flex;
+  flex-direction: column;
 }
 
 .m-feature {
@@ -222,4 +230,36 @@ body {
 
 .section-title-jp {
   text-align: center;
+  padding-bottom: 130px;
+  font-size: 18px;
+}
+
+.feature {
+  display: flex;
+  padding-bottom: 120px;
+  gap: 40px;
+}
+
+.feature:nth-of-type(even) {
+  flex-direction: row-reverse;
+}
+
+.feature-img {
+  width: 380px;
+  height: 300px;
+}
+
+.feature-txt-num {
+  font-size: 40px;
+  font-family: 'Roboto', sans-serif;
+  color: #EC5F5C;
+}
+
+.feature-txt-box {
+  width: 400px;
+}
+
+.feature-txt-title {
+  font-size: 20px;
+  padding-bottom: 15px;
 }
