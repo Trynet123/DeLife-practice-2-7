@@ -203,10 +203,12 @@ body {
 .m-feature {
   display: flex;
   align-items: center;
+  justify-content: center;
+  padding-top: 100px;
 }
 
 .m-feature > a {
-  text-align: center;
+  /* text-align: center; */
 }
 
 .m-feature::after {
