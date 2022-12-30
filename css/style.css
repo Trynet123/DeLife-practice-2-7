@@ -312,7 +312,7 @@ body {
   right: 0;
 }
 
-.question::after {
+.question:not(:first-child)::after {
   content: '';
   display: inline-block;
   width: 28px;
