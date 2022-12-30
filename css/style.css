@@ -1,3 +1,8 @@
+/* TODO: 全体リファクタリングが必要
+PC版が完成したタイミングで一度行い、
+SPを始める前に整頓すべきか。
+それともSPもやった後、やるべきか。
+おそらくPC版をテキスト準拠に直したほうが良い。 */
 /* Base */
 body {
   font-size: 15px;
@@ -10,16 +15,10 @@ body {
   font-weight: 400;
 }
 
-/* bodyの設定内容は要検討 */
+/* TODO: bodyの設定内容は要検討 */
 
 * a:hover {
   opacity: 0.6;
-}
-
-#about {
-  display: block;
-  padding-top: 70px;
-  margin-top: -70px;
 }
 
 #feature {
@@ -99,14 +98,24 @@ body {
 
 /* メインビジュアル */
 .mv {
-  position: relative;
-  background: url(../img/mv_bg.png) no-repeat center bottom;
   margin-top: 115px;
+  background: url(../img/mv_bg.png);
+  background-position: 0 bottom;
+  background-repeat: no-repeat;
+  background-size: contain;
 }
 
 .mv-container {
   max-width: 1260px;
   margin: 0 auto;
+  /* TODO: コンテナは要検討 */
+  /* 下記はテキストからコピー */
+  /* display: block;
+  box-sizing: content-box;
+  margin: 0 auto;
+  max-width: 1260px;
+  padding-left: 48px;
+  padding-right: 48px; */
 }
 
 .mv-container::after {
@@ -165,7 +174,7 @@ body {
   text-align: center;
   color: white;
   height: 65px;
-  padding-top: 139px;
+  padding-top: 130px;
   display: block;
 }
 
@@ -234,6 +243,7 @@ body {
   margin: 0 auto;
   display: flex;
   flex-direction: column;
+  align-items: center;
 }
 
 .m-feature {
