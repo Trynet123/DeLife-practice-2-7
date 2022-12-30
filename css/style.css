@@ -215,10 +215,6 @@ body {
   padding-top: 100px;
 }
 
-.m-feature > a {
-  /* text-align: center; */
-}
-
 .m-feature::after {
   content: '';
   display: block;
@@ -262,4 +258,31 @@ body {
 .feature-txt-title {
   font-size: 20px;
   padding-bottom: 15px;
+}
+
+/* FAQセクション */
+.faq {
+  background-color: #2F2E41;
+  color: white;
+}
+
+.faq-container {
+  max-width: 1260px;
+  margin: 0 auto;
+}
+
+.m-faq {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  padding-top: 100px;
+}
+
+.m-faq::after {
+  content: '';
+  display: block;
+  width: 75px;
+  height: 1px;
+  background-color: #EC5F5C;
+  margin-left: 10px;
 }
