@@ -6,7 +6,6 @@ body {
   color: #000;
   font-family: "Yu Gothic", 'Noto Sans JP', "ヒラギノ角ゴシック", "Hiragino Sans", "ヒラギノ角ゴ ProN W3", "Hiragino Kaku Gothic ProN", "游ゴシック", YuGothic, "メイリオ", Meiryo, '源ノ角ゴシック JP', sans-serif;
   font-weight: 400;
-  /* max-width: 1260px; */
 }
 
 /* bodyの設定内容は要検討 */
@@ -80,7 +79,6 @@ body {
 .mv-container {
   max-width: 1260px;
   margin: 0 auto;
-  /* height: 810px; */
 }
 
 .mv-container::after {
@@ -140,10 +138,7 @@ body {
   color: white;
   height: 65px;
   padding-top: 139px;
-  /* padding-bottom: 10px; */
   display: block;
-  /* margin: 0 auto; */
-  /* テスト */
 }
 
 .scroll-icon::after {
@@ -152,10 +147,7 @@ body {
   height: 30px;
   background-color: white;
   display: block;
-  /* text-align: center; */
-  /* padding-bottom: 10px; */
   margin: 1px auto 10px;
-  /* margin: 0 auto; */
 }
 
 /* Aboutセクション */
@@ -163,7 +155,7 @@ body {
   background-color: #EC5F5C;
 }
 
-/* コピー */
+/* 2-5コピー */
 .about-container {
 	display: block;
 	box-sizing: content-box;
@@ -189,7 +181,43 @@ body {
   color: white;
 }
 
+.m-about::after {
+  content: '';
+  width: 75px;
+  height: 1px;
+  display: block;
+  background-color: white;
+}
+
 .about-description {
   font-size: 25px;
   padding-bottom: 35px;
+}
+
+/* Featureセクション */
+.feature-container {
+  max-width: 1260px;
+  margin: 0 auto;
+}
+
+.m-feature {
+  display: flex;
+  align-items: center;
+}
+
+.m-feature > a {
+  text-align: center;
+}
+
+.m-feature::after {
+  content: '';
+  display: block;
+  width: 75px;
+  height: 1px;
+  background-color: #EC5F5C;
+  margin-left: 10px;
+}
+
+.section-title-jp {
+  text-align: center;
 }
