@@ -459,6 +459,8 @@ footer {
   display: flex;
   flex-wrap: wrap;
   width: 600px;
+  font-size: 14px;
+  letter-spacing: 0.09em;
 }
 
 .footer-nav > a {
