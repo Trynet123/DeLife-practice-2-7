@@ -273,6 +273,14 @@ section:not(#about) {
   letter-spacing: 0.13em;
 }
 
+/* アンカー */
+.anchor {
+  display: block;
+  height: 1px;
+  padding-top: 100px;
+  margin-top: -100px;
+}
+
 /* FAQセクション */
 .faq {
   background-color: #2f2e41;
