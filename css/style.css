@@ -415,6 +415,7 @@ section:not(#about) {
 
 .logo-white-img {
   width: 130px;
+  padding-top: 5px;
 }
 
 .cv-img {
@@ -432,10 +433,12 @@ section:not(#about) {
   font-size: 25px;
   line-height: 1.5;
   text-align: center;
-  margin-top: 15px;
-  margin-bottom: 20px;
+  /* margin-top: 15px; */
+  /* margin-bottom: 30px; */
   letter-spacing: 0.12em;
   padding-left: 5px;
+  padding-bottom: 28px;
+  padding-top: 17px;
 }
 
 /* フッター */
