@@ -168,14 +168,13 @@ section:not(#about) {
 }
 
 .about-container {
-  padding-left: 35px;
+  padding-left: 34px;
 }
 
 .about-box {
   display: flex;
   padding-top: 140px;
-  padding-bottom: 230px;
-  padding-left: 0;
+  padding-bottom: 220px;
 }
 
 .about-img {
@@ -195,7 +194,22 @@ section:not(#about) {
 
 .about-description {
   font-size: 25px;
-  padding-bottom: 35px;
+  letter-spacing: 0.1em;
+  width: max-content;
+  line-height: 1.5em;
+  padding-bottom: 38px;
+}
+
+.about-description-detail {
+  letter-spacing: 0.12em;
+}
+
+.board {
+  font-family: "Roboto", sans-serif;
+}
+
+.board-jp {
+  letter-spacing: 0.29em;
 }
 
 /* Featureセクション */
@@ -203,6 +217,10 @@ section:not(#about) {
   display: flex;
   flex-direction: column;
   align-items: center;
+}
+
+.feature-container:last-child {
+  padding-bottom: 50px;
 }
 
 .m-feature {
@@ -214,13 +232,13 @@ section:not(#about) {
 
 .section-title-jp {
   text-align: center;
-  padding-bottom: 130px;
+  padding-bottom: 122px;
   font-size: 18px;
 }
 
 .feature {
   display: flex;
-  padding-bottom: 120px;
+  padding-bottom: 109px;
   gap: 40px;
 }
 
@@ -229,6 +247,7 @@ section:not(#about) {
 }
 
 .feature-img {
+  padding-top: 4px;
   width: 380px;
   height: 300px;
 }
@@ -237,6 +256,8 @@ section:not(#about) {
   font-size: 40px;
   font-family: "Roboto", sans-serif;
   color: #ec5f5c;
+  padding-top: 13px;
+  line-height: 1;
 }
 
 .feature-txt-box {
@@ -246,6 +267,7 @@ section:not(#about) {
 .feature-txt-title {
   font-size: 20px;
   padding-bottom: 15px;
+  letter-spacing: 0.13em;
 }
 
 /* FAQセクション */
