@@ -433,7 +433,9 @@ section:not(#about) {
   line-height: 1.5;
   text-align: center;
   margin-top: 15px;
-  margin-bottom: 30px;
+  margin-bottom: 20px;
+  letter-spacing: 0.12em;
+  padding-left: 5px;
 }
 
 /* フッター */
