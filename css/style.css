@@ -4,7 +4,7 @@ body {
   letter-spacing: 0.1em;
   line-height: 1.7;
   color: #000;
-  font-family: "Yu Gothic", "Noto Sans JP", "ヒラギノ角ゴシック",
+  font-family: "Noto Sans JP", "Yu Gothic", "ヒラギノ角ゴシック",
     "Hiragino Sans", "ヒラギノ角ゴ ProN W3", "Hiragino Kaku Gothic ProN",
     "游ゴシック", YuGothic, "メイリオ", Meiryo, "源ノ角ゴシック JP", sans-serif;
   font-weight: 500;
@@ -45,10 +45,6 @@ section:not(#about) {
   display: block;
   background-color: #ec5f5c;
   margin-left: 10px;
-}
-
-.cv-btn-box {
-  display: flex;
 }
 
 .cv-btn-box > a:first-child > img {
@@ -99,9 +95,7 @@ section:not(#about) {
 }
 
 .header-gnav-item > a {
-  font-family: "Roboto", sans-serif;
   color: #000;
-  font-weight: 700;
   text-decoration: none;
 }
 
@@ -114,41 +108,39 @@ section:not(#about) {
   background-size: contain;
 }
 
-.mv-container::after {
-  content: "";
-  position: absolute;
-  top: 10px;
-  max-width: 1023px;
-  height: 100%;
-  z-index: -1;
+.mv-container {
+  max-width: 1050px;
 }
 
 .mv-area {
   display: flex;
-  width: 1040px;
   margin: 0 auto;
   padding-top: 30px;
-  padding-left: 48px;
-  padding-right: 48px;
-  align-items: center;
 }
 
 .mv-box {
-  width: 344px;
-  margin-right: 116px;
+  padding-left: 4px;
 }
 
 .mv-box p:first-child {
   font-size: 35px;
-  font-weight: bold;
+  font-weight: 700;
+  letter-spacing: 0.1em;
+  padding-top: 147px;
 }
 
 .mv-box p:nth-of-type(2) {
   margin-bottom: 55px;
+  padding-top: 2px;
+}
+
+.cv-btn-box {
+  display: flex;
 }
 
 .mv-img {
   width: 580px;
+  padding-left: 116px;
 }
 
 .scroll-icon {
@@ -157,6 +149,8 @@ section:not(#about) {
   height: 65px;
   padding-top: 130px;
   display: block;
+  font-family: "Roboto", sans-serif;
+  font-size: 12px;
 }
 
 .scroll-icon::after {
@@ -173,11 +167,16 @@ section:not(#about) {
   background-color: #ec5f5c;
 }
 
+.about-container {
+  padding-left: 35px;
+}
+
 .about-box {
   display: flex;
-  align-items: center;
+  /* align-items: center; */
   padding-top: 140px;
   padding-bottom: 230px;
+  padding-left: 0;
 }
 
 .about-img {
@@ -187,6 +186,7 @@ section:not(#about) {
 
 .about-body {
   color: white;
+  padding-top: 28px;
 }
 
 .m-about::after {
@@ -263,7 +263,7 @@ section:not(#about) {
   display: flex;
   align-items: center;
   justify-content: center;
-  padding-top: 100px;
+  padding-top: 30px;
 }
 
 .questions {
@@ -446,4 +446,6 @@ footer {
   position: absolute;
   bottom: 20px;
   right: 48px;
+  font-family: "Roboto", sans-serif;
+  font-size: 12px;
 }
