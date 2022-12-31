@@ -132,4 +132,14 @@
   .answer {
     font-size: 14px;
   }
+
+  /* Devicesセクション */
+  .devices-list {
+    flex-direction: column;
+    align-items: center;
+  }
+
+  .bg {
+    height: 610px;
+  }
 }
