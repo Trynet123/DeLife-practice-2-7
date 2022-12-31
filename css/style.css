@@ -173,7 +173,6 @@ section:not(#about) {
 
 .about-box {
   display: flex;
-  /* align-items: center; */
   padding-top: 140px;
   padding-bottom: 230px;
   padding-left: 0;
