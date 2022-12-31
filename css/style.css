@@ -1,9 +1,4 @@
-/* TODO: 全体リファクタリングが必要
-PC版が完成したタイミングで一度行い、
-SPを始める前に整頓すべきか。
-それともSPもやった後、やるべきか。
-おそらくPC版をテキスト準拠に直したほうが良い。 */
-/* Base */
+/* 共通 */
 body {
   font-size: 15px;
   letter-spacing: 0.1em;
@@ -12,42 +7,25 @@ body {
   font-family: "Yu Gothic", "Noto Sans JP", "ヒラギノ角ゴシック",
     "Hiragino Sans", "ヒラギノ角ゴ ProN W3", "Hiragino Kaku Gothic ProN",
     "游ゴシック", YuGothic, "メイリオ", Meiryo, "源ノ角ゴシック JP", sans-serif;
-  font-weight: 400;
+  font-weight: 500;
 }
-
-/* TODO: bodyの設定内容は要検討 */
 
 * a:hover {
   opacity: 0.6;
 }
 
-#feature {
+section:not(#about) {
   display: block;
   padding-top: 70px;
   margin-top: -70px;
 }
 
-#faq {
-  display: block;
-  padding-top: 70px;
-  margin-top: -70px;
-}
-
-#devices {
-  display: block;
-  padding-top: 70px;
-  margin-top: -70px;
-}
-
-/* 共通 */
 .section-title {
   padding-bottom: 7px;
   font-family: "Roboto", sans-serif;
-  font-weight: 600;
+  font-weight: 700;
   line-height: 1.5;
 }
-
-/* 共通終わり */
 
 /* ヘッダー */
 .header {
@@ -106,26 +84,17 @@ body {
 }
 
 .mv-container {
-  max-width: 1260px;
+  max-width: 1023px;
   margin: 0 auto;
-  /* TODO: コンテナは要検討 */
-  /* 下記はテキストからコピー */
-  /* display: block;
-  box-sizing: content-box;
-  margin: 0 auto;
-  max-width: 1260px;
-  padding-left: 48px;
-  padding-right: 48px; */
 }
 
 .mv-container::after {
   content: "";
   position: absolute;
   top: 10px;
-  max-width: 1260px;
+  max-width: 1023px;
   height: 100%;
   z-index: -1;
-  /* background: url(../img/mv_bg.png) no-repeat center bottom; */
 }
 
 .mv-area {
@@ -197,7 +166,7 @@ body {
   display: block;
   box-sizing: content-box;
   margin: 0 auto;
-  max-width: 1040px;
+  max-width: 1023px;
   padding-left: 48px;
   padding-right: 48px;
 }
@@ -239,7 +208,7 @@ body {
 
 /* Featureセクション */
 .feature-container {
-  max-width: 1260px;
+  max-width: 1023px;
   margin: 0 auto;
   display: flex;
   flex-direction: column;
@@ -305,7 +274,7 @@ body {
 }
 
 .faq-container {
-  max-width: 1260px;
+  max-width: 1023px;
   margin: 0 auto;
 }
 
@@ -384,7 +353,7 @@ body {
 }
 
 .devices-container {
-  max-width: 1260px;
+  max-width: 1023px;
   padding-bottom: 170px;
   margin: 0 auto;
 }
@@ -414,7 +383,6 @@ body {
 }
 
 .devices-item {
-  /* margin: 0 auto; */
   width: 250px;
   height: 190px;
   box-shadow: 0px 0px 25px rgba(0, 0, 0, 0.1);
@@ -491,7 +459,8 @@ footer {
 .footer-container {
   max-width: 1260px;
   height: 82px;
-  padding: 40px 90px 20px;
+  padding-top: 40px;
+  padding-bottom: 20px;
   margin: 0 auto;
   position: relative;
 }
@@ -521,5 +490,5 @@ footer {
   color: #515061;
   position: absolute;
   bottom: 20px;
-  right: 90px;
+  right: 0;
 }
