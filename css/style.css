@@ -34,6 +34,17 @@ section:not(#about) {
   font-family: "Roboto", sans-serif;
   font-weight: 700;
   line-height: 1.5;
+  display: flex;
+  align-items: center;
+}
+
+.section-title::after {
+  content: "";
+  width: 75px;
+  height: 2px;
+  display: block;
+  background-color: #ec5f5c;
+  margin-left: 10px;
 }
 
 /* ヘッダー */
@@ -54,8 +65,6 @@ section:not(#about) {
   align-items: center;
   justify-content: space-between;
   height: 100%;
-  padding-left: 40px;
-  padding-right: 40px;
 }
 
 .header-logo {
@@ -131,12 +140,12 @@ section:not(#about) {
   width: 580px;
 }
 
-.cv-btn-1 {
+.cv-btn-box > a:first-child > img {
   width: 140px;
   height: 50px;
 }
 
-.cv-btn-2 {
+.cv-btn-box > a:last-child > img {
   width: 170px;
   height: 50px;
 }
@@ -179,18 +188,9 @@ section:not(#about) {
   color: white;
 }
 
-.m-about {
-  display: flex;
-  align-items: center;
-}
-
 .m-about::after {
   content: "";
-  width: 75px;
-  height: 1px;
-  display: block;
   background-color: white;
-  margin-left: 10px;
 }
 
 .about-description {
@@ -210,15 +210,6 @@ section:not(#about) {
   align-items: center;
   justify-content: center;
   padding-top: 100px;
-}
-
-.m-feature::after {
-  content: "";
-  display: block;
-  width: 75px;
-  height: 1px;
-  background-color: #ec5f5c;
-  margin-left: 10px;
 }
 
 .section-title-jp {
@@ -263,20 +254,15 @@ section:not(#about) {
   color: white;
 }
 
+.faq-container {
+  max-width: 750px;
+}
+
 .m-faq {
   display: flex;
   align-items: center;
   justify-content: center;
   padding-top: 100px;
-}
-
-.m-faq::after {
-  content: "";
-  display: block;
-  width: 75px;
-  height: 1px;
-  background-color: #ec5f5c;
-  margin-left: 10px;
 }
 
 .questions {
@@ -346,15 +332,6 @@ section:not(#about) {
   align-items: center;
   justify-content: center;
   padding-top: 100px;
-}
-
-.m-devices::after {
-  content: "";
-  display: block;
-  width: 75px;
-  height: 1px;
-  background-color: #ec5f5c;
-  margin-left: 10px;
 }
 
 .devices-list {
