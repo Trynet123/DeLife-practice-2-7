@@ -451,7 +451,7 @@ footer {
 
 .footer-container {
   max-width: 1260px;
-  height: 82px;
+  /* height: 82px; */
   padding-top: 40px;
   padding-bottom: 20px;
   position: relative;
@@ -460,7 +460,7 @@ footer {
 .footer-nav {
   display: flex;
   flex-wrap: wrap;
-  width: 600px;
+  max-width: 600px;
   font-size: 14px;
   letter-spacing: 0.09em;
 }
