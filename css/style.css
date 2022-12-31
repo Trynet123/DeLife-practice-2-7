@@ -148,6 +148,7 @@ section:not(#about) {
 .cv-btn-box > a:last-child > img {
   width: 170px;
   height: 50px;
+  margin-left: 20px;
 }
 
 .scroll-icon {
