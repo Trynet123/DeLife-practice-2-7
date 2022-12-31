@@ -47,6 +47,21 @@ section:not(#about) {
   margin-left: 10px;
 }
 
+.cv-btn-box {
+  display: flex;
+}
+
+.cv-btn-box > a:first-child > img {
+  width: 140px;
+  height: 50px;
+}
+
+.cv-btn-box > a:last-child > img {
+  width: 170px;
+  height: 50px;
+  margin-left: 20px;
+}
+
 /* ヘッダー */
 .header {
   position: fixed;
@@ -132,23 +147,8 @@ section:not(#about) {
   margin-bottom: 55px;
 }
 
-.cv-btn-box {
-  display: flex;
-}
-
 .mv-img {
   width: 580px;
-}
-
-.cv-btn-box > a:first-child > img {
-  width: 140px;
-  height: 50px;
-}
-
-.cv-btn-box > a:last-child > img {
-  width: 170px;
-  height: 50px;
-  margin-left: 20px;
 }
 
 .scroll-icon {
