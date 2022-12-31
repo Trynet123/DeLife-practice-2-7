@@ -1,7 +1,23 @@
 @media (max-width: 1023px) {
-  .about-container {
+  .container {
 		max-width: 580px;
     padding-left: 25px;
 		padding-right: 25px;
+  }
+
+  .header {
+    height: 72px;
+  }
+
+  .header-logo {
+    width: 104px;
+  }
+
+  .header-gnav-btn {
+    display: none;
+  }
+
+  .header-gnav {
+    display: none;
   }
 }

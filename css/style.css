@@ -99,6 +99,10 @@ section:not(#about) {
   text-decoration: none;
 }
 
+.header-gnav-btn {
+  display: none;
+}
+
 /* メインビジュアル */
 .mv {
   margin-top: 115px;
