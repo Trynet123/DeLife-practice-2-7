@@ -142,4 +142,39 @@
   .bg {
     height: 610px;
   }
+
+  /* Bottomセクション */
+  .cv-container {
+    /* max-width: 820px; */
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+
+  .cv-figure {
+    margin-left: 0;
+  }
+
+  .cv-img {
+    width: 325px;
+    height: 325px;
+  }
+
+  .logo-white-img {
+    width: 104px;
+    padding-top: 120px;
+    padding-bottom: 15px;
+  }
+
+  .cv-box > p {
+    padding-top: 0;
+    padding-bottom: 60px;
+  }
+
+  .cv-figure {
+    margin-top: 30px;
+    margin-bottom: 100px;
+  }
+
+  /* フッター */
 }
