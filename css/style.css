@@ -288,7 +288,7 @@ section:not(#about) {
   display: flex;
   align-items: center;
   justify-content: center;
-  padding-top: 30px;
+  padding-top: 31px;
 }
 
 .questions {
@@ -333,13 +333,17 @@ section:not(#about) {
 }
 
 .answer {
-  padding-bottom: 40px;
+  padding-bottom: 37px;
   border-bottom: solid white 1px;
 }
 
 /* Devicesセクション */
 .devices {
   position: relative;
+}
+
+.devices-title {
+  padding-bottom: 127px;
 }
 
 .bg {
@@ -391,7 +395,7 @@ section:not(#about) {
 }
 
 .devices-item-content > p {
-  padding-top: 5px;
+  padding-top: 4px;
 }
 
 .device-img {
@@ -463,6 +467,7 @@ footer {
   max-width: 600px;
   font-size: 14px;
   letter-spacing: 0.09em;
+  padding-bottom: 50px;
 }
 
 .footer-nav > a {
@@ -483,8 +488,9 @@ footer {
 .copyright {
   color: #515061;
   position: absolute;
-  bottom: 20px;
+  bottom: 40px;
   right: 48px;
   font-family: "Roboto", sans-serif;
   font-size: 12px;
+  letter-spacing: 0.09em;
 }
