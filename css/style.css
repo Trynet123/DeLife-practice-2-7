@@ -118,7 +118,6 @@ section:not(#about) {
 
 .mv-area {
   display: flex;
-  margin: 0 auto;
   padding-top: 30px;
 }
 
@@ -143,7 +142,7 @@ section:not(#about) {
 }
 
 .mv-img {
-  width: 580px;
+  max-width: 580px;
   padding-left: 116px;
 }
 
