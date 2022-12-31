@@ -118,4 +118,18 @@
   .feature-txt-num {
     padding-top: 0px;
   }
+
+  /* FAQセクション */
+  .faq-container {
+    max-width: 295px;
+  }
+
+  .m-faq {
+    padding-top: 0;
+    /* TODO: section-titleでnot使うか */
+  }
+
+  .answer {
+    font-size: 14px;
+  }
 }
