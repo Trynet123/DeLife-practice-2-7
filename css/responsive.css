@@ -100,4 +100,22 @@
   .about-figure {
     margin: 0 auto;
   }
+
+  /* Featureセクション */
+  .feature {
+    flex-direction: column;
+    gap: 0;
+  }
+
+  .feature:nth-of-type(even) {
+    flex-direction: column;
+  }
+
+  .section-title-jp {
+    padding-bottom: 70px;
+  }
+
+  .feature-txt-num {
+    padding-top: 0px;
+  }
 }
