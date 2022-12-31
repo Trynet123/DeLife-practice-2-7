@@ -40,4 +40,37 @@
   .m-bottom {
     width: 23px;
   }
+
+  .mv-area {
+    flex-direction: column;
+    align-items: center;
+  }
+
+  .mv-box {
+    text-align: center;
+  }
+
+  .mv-box p:first-child {
+    font-size: 25px;
+    padding-top: 0px;
+    /* TODO: ヘッダーとの距離が適当 */
+  }
+
+  .mv-img {
+    padding-top: 30px;
+    width: 325px;
+    padding-left: 0;
+  }
+
+  .mv {
+    background: url(../img/mv_bg_sp.png);
+    background-position: 0 bottom;
+    background-repeat: no-repeat;
+    background-size: contain;
+  }
+
+  .scroll-icon {
+    padding-top: 50px;
+    padding-bottom: 70px;
+  }
 }
