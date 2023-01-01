@@ -133,7 +133,8 @@
     width: 325px;
     padding-left: 0;
   }
-
+/* TODO: 遷移中にスクロールアイコンが背景から出てしまう。
+背景だけmax-width: 515pxを利用するか。 */
   .scroll-icon {
     padding-top: 30px;
     padding-bottom: 0px;

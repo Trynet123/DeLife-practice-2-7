@@ -146,7 +146,7 @@ section:not(#about) {
   padding-left: 116px;
 }
 
-/* TODO: 遷移中にスクロールアイコンが背景から出てしまう。 */
+
 .scroll-icon {
   text-align: center;
   color: white;
