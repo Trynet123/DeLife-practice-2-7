@@ -154,6 +154,14 @@
     padding-top: 25px;
   }
 
+  .about-container {
+    margin-top: 0;
+  }
+
+  .about-box {
+    padding-left: 0;
+  }
+
   .about-body {
     max-width: 325px;
   }
