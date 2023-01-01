@@ -318,7 +318,18 @@ section:not(#about) {
   position: relative;
 }
 
-.question::before {
+.question:first-child::before {
+  content: "";
+  display: inline-block;
+  width: 28px;
+  height: 2px;
+  background-color: white;
+  position: absolute;
+  right: 0;
+  top: 5px;
+}
+
+.question:not(:first-child)::before {
   content: "";
   display: inline-block;
   width: 28px;
