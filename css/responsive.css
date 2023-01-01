@@ -70,6 +70,11 @@
     height: 72px;
   }
 
+  .header-container {
+    padding-right: 15px;
+    padding-left: 15px;
+  }
+
   .header-logo>a>img {
     width: 104px;
   }
@@ -94,8 +99,8 @@
 
   .m-middle {
     width: 30px;
-    margin-top: 7px;
-    margin-bottom: 7px;
+    margin-top: 8px;
+    margin-bottom: 8px;
   }
 
   .m-bottom {
