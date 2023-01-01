@@ -286,10 +286,8 @@
     display: flex;
     flex-direction: column;
     align-items: center;
-  }
-
-  .cv-figure {
-    margin-left: 0;
+    padding-bottom: 90px;
+    margin-bottom: 0;
   }
 
   .cv-img {
@@ -304,13 +302,15 @@
   }
 
   .cv-box>p {
-    padding-top: 0;
-    padding-bottom: 60px;
+    padding-top: 7px;
+    padding-bottom: 58px;
   }
 
   .cv-figure {
-    margin-top: 30px;
-    margin-bottom: 100px;
+    margin-left: 0;
+    margin-top: 22px;
+    /* margin-bottom: 100px; */
+    margin-bottom: 0;
   }
 
   /* フッター */
