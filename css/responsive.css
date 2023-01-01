@@ -107,13 +107,15 @@
     background-repeat: no-repeat;
     background-size: contain;
   }
+
   .mv-container {
-    padding-top: 90px;
+    padding-top: 120px;
   }
 
   .mv-area {
     flex-direction: column;
     align-items: center;
+    padding-top: 0;
   }
 
   .mv-box {
