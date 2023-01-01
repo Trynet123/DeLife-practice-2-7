@@ -146,6 +146,7 @@ section:not(#about) {
   padding-left: 116px;
 }
 
+/* TODO: 遷移中にスクロールアイコンが背景から出てしまう。 */
 .scroll-icon {
   text-align: center;
   color: white;
@@ -188,6 +189,7 @@ section:not(#about) {
 .about-body {
   color: white;
   padding-top: 28px;
+  max-width: 440px;
 }
 
 .m-about::after {
@@ -198,7 +200,6 @@ section:not(#about) {
 .about-description {
   font-size: 25px;
   letter-spacing: 0.1em;
-  width: max-content;
   line-height: 1.5em;
   padding-bottom: 38px;
 }
