@@ -173,7 +173,6 @@ section:not(#about) {
 }
 
 .about-container {
-  /* padding-left: 40px; */
   max-width: 1060px;
 }
 
@@ -486,7 +485,7 @@ footer {
 .footer-nav {
   display: flex;
   flex-wrap: wrap;
-  width: 600px;
+  max-width: 600px;
   font-size: 14px;
   letter-spacing: 0.09em;
   padding-bottom: 50px;
