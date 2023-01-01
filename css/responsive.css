@@ -1,4 +1,5 @@
 @media screen and (max-width: 1145px) {
+
   /* メインビジュアル */
   .mv-box {
     text-align: center;
@@ -47,6 +48,7 @@
 }
 
 @media screen and (max-width: 1023px) {
+
   /* 共通 */
   .container {
     max-width: 580px;
@@ -58,9 +60,9 @@
     padding-top: 120px;
   }
 
-  .cv-btn-box > a:last-child > img {
+  .cv-btn-box>a:last-child>img {
     margin-left: 15px;
-}
+  }
 
   /* ヘッダー */
   /* TODO: ヘッダー全体の幅が異常か */
@@ -68,7 +70,7 @@
     height: 72px;
   }
 
-  .header-logo > a > img {
+  .header-logo>a>img {
     width: 104px;
   }
 
@@ -135,7 +137,7 @@
     padding-left: 0;
   }
 
-/* TODO: 遷移中にスクロールアイコンが背景から出てしまう。
+  /* TODO: 遷移中にスクロールアイコンが背景から出てしまう。
 背景だけmax-width: 515pxを利用するか。 */
   .scroll-icon {
     padding-top: 30px;
@@ -166,10 +168,24 @@
     letter-spacing: 0.1em;
   }
 
+  .about-box {
+    padding-bottom: 90px;
+  }
+
   /* Featureセクション */
+  .feature-container {
+    margin-bottom: 115px;
+  }
+
   .feature {
     flex-direction: column;
     gap: 0;
+    width: 295px;
+    padding-bottom: 0;
+  }
+
+  .feature:not(:last-child) {
+    padding-bottom: 85px;
   }
 
   .feature:nth-of-type(even) {
@@ -177,16 +193,32 @@
   }
 
   .section-title-jp {
-    padding-bottom: 70px;
+    padding-bottom: 66px;
+  }
+
+  .feature-img {
+    padding-top: 4px;
+    width: 295px;
+    height: 233px;
+  }
+
+  .feature-txt-box {
+    width: 295px;
   }
 
   .feature-txt-num {
     padding-top: 0px;
   }
 
+  .feature-txt {
+    font-size: 14px;
+  }
+
   /* FAQセクション */
   .faq-container {
     max-width: 295px;
+    padding-top: 52px;
+    padding-bottom: 97px;
   }
 
   .m-faq {
@@ -194,8 +226,38 @@
     /* TODO: section-titleでnot使うか */
   }
 
+  .m-faq-jp {
+    padding-bottom: 58px;
+  }
+
+  .questions {
+    padding-top: 0;
+    padding-bottom: 0;
+  }
+
+  .question {
+    font-size: 14px;
+    padding-top: 30px;
+    padding-bottom: 30px;
+    letter-spacing: 0.15em;
+  }
+
+  .question:nth-of-type(3) {
+    padding-top: 28px;
+    padding-bottom: 29px;
+  }
+
   .answer {
     font-size: 14px;
+    padding-bottom: 28px;
+  }
+
+  .question::before {
+    width: 20px;
+  }
+
+  .question:not(:first-child)::after {
+    width: 20px;
   }
 
   /* Devicesセクション */
@@ -230,7 +292,7 @@
     padding-bottom: 15px;
   }
 
-  .cv-box > p {
+  .cv-box>p {
     padding-top: 0;
     padding-bottom: 60px;
   }
@@ -248,11 +310,11 @@
     padding-bottom: 70px;
   }
 
-  .footer-nav > a:not(:nth-of-type(4)):not(:last-child)::after {
+  .footer-nav>a:not(:nth-of-type(4)):not(:last-child)::after {
     display: none;
   }
 
-  .footer-nav > a {
+  .footer-nav>a {
     padding-right: 0;
   }
 
