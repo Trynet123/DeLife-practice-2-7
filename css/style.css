@@ -486,10 +486,11 @@ footer {
 .footer-nav {
   display: flex;
   flex-wrap: wrap;
-  max-width: 600px;
+  width: 600px;
   font-size: 14px;
   letter-spacing: 0.09em;
   padding-bottom: 50px;
+  line-height: 2;
 }
 
 .footer-nav>a {
