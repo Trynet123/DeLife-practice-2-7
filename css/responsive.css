@@ -103,7 +103,7 @@
   .mv {
     margin-top: 0;
     background: url(../img/mv_bg_sp.png);
-    background-position: 0 bottom;
+    background-position: 0 595px;
     background-repeat: no-repeat;
     background-size: contain;
   }
@@ -135,8 +135,8 @@
   }
 
   .scroll-icon {
-    padding-top: 50px;
-    padding-bottom: 70px;
+    padding-top: 30px;
+    padding-bottom: 0px;
   }
 
   /* Featureセクション */
