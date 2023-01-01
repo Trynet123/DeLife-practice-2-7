@@ -101,11 +101,11 @@
   }
   /* メインビジュアル */
   .mv {
+    margin-top: 0;
     background: url(../img/mv_bg_sp.png);
     background-position: 0 bottom;
     background-repeat: no-repeat;
     background-size: contain;
-    margin-top: 0;
   }
   .mv-container {
     padding-top: 90px;
