@@ -234,7 +234,6 @@
 
   .m-faq {
     padding-top: 0;
-    /* TODO: section-titleでnot使うか */
   }
 
   .m-faq-jp {
@@ -315,7 +314,6 @@
   .cv-figure {
     margin-left: 0;
     margin-top: 22px;
-    /* margin-bottom: 100px; */
     margin-bottom: 0;
   }
 
