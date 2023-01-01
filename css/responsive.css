@@ -65,7 +65,6 @@
   }
 
   /* ヘッダー */
-  /* TODO: ヘッダー全体の幅が異常か */
   .header {
     height: 72px;
   }
@@ -133,7 +132,6 @@
   .mv-box p:first-child {
     font-size: 25px;
     padding-top: 0px;
-    /* TODO: ヘッダーとの距離が適当 */
   }
 
   .mv-img {
@@ -174,7 +172,7 @@
 
   .about-description-detail {
     font-size: 14px;
-    letter-spacing: 0.085em;
+    letter-spacing: 0.1em;
   }
 
   .board-jp {
