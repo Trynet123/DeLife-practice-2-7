@@ -347,6 +347,10 @@ section:not(#about) {
 }
 
 /* Devicesセクション */
+.devices-container {
+  padding-bottom: 170px;
+}
+
 .devices {
   position: relative;
 }
@@ -361,10 +365,6 @@ section:not(#about) {
   background-color: #fff8f8;
   position: absolute;
   bottom: 100px;
-}
-
-.devices-container {
-  padding-bottom: 170px;
 }
 
 .m-devices {
