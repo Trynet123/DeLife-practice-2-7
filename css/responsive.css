@@ -139,6 +139,20 @@
     padding-bottom: 0px;
   }
 
+  /* Aboutセクション */
+  .about {
+    padding-top: 25px;
+  }
+
+  .about-description {
+    font-size: 20px;
+    letter-spacing: 0.1em;
+  }
+
+  .board-jp {
+    letter-spacing: 0.2em;
+  }
+
   /* Featureセクション */
   .feature {
     flex-direction: column;
