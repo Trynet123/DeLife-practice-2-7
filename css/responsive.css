@@ -99,6 +99,7 @@
   .m-bottom {
     width: 23px;
   }
+
   /* メインビジュアル */
   .mv {
     margin-top: 0;
@@ -133,6 +134,7 @@
     width: 325px;
     padding-left: 0;
   }
+
 /* TODO: 遷移中にスクロールアイコンが背景から出てしまう。
 背景だけmax-width: 515pxを利用するか。 */
   .scroll-icon {
@@ -145,13 +147,23 @@
     padding-top: 25px;
   }
 
+  .about-body {
+    max-width: 325px;
+  }
+
   .about-description {
+    padding-top: 3px;
     font-size: 20px;
-    letter-spacing: 0.1em;
+    letter-spacing: 0.16em;
+  }
+
+  .about-description-detail {
+    font-size: 14px;
+    letter-spacing: 0.085em;
   }
 
   .board-jp {
-    letter-spacing: 0.2em;
+    letter-spacing: 0.1em;
   }
 
   /* Featureセクション */
