@@ -148,7 +148,7 @@ section:not(#about) {
 
 .scroll-icon {
   text-align: center;
-  color: white;
+  color: #fff;
   height: 65px;
   padding-top: 130px;
   display: block;
@@ -160,7 +160,7 @@ section:not(#about) {
   content: "";
   width: 1px;
   height: 30px;
-  background-color: white;
+  background-color: #fff;
   display: block;
   margin: 1px auto 10px;
 }
@@ -187,14 +187,14 @@ section:not(#about) {
 }
 
 .about-body {
-  color: white;
+  color: #fff;
   padding-top: 28px;
   max-width: 500px;
 }
 
 .m-about::after {
   content: "";
-  background-color: white;
+  background-color: #fff;
 }
 
 .about-description {
@@ -285,7 +285,7 @@ section:not(#about) {
 /* FAQセクション */
 .faq {
   background-color: #2f2e41;
-  color: white;
+  color: #fff;
 }
 
 .faq-container {
@@ -308,7 +308,7 @@ section:not(#about) {
 .question {
   padding-top: 40px;
   padding-bottom: 40px;
-  border-bottom: solid white 1px;
+  border-bottom: solid #fff 1px;
   display: flex;
   align-items: center;
   justify-content: space-between;
@@ -320,7 +320,7 @@ section:not(#about) {
   display: inline-block;
   width: 28px;
   height: 2px;
-  background-color: white;
+  background-color: #fff;
   position: absolute;
   right: 0;
   top: 5px;
@@ -331,7 +331,7 @@ section:not(#about) {
   display: inline-block;
   width: 28px;
   height: 2px;
-  background-color: white;
+  background-color: #fff;
   position: absolute;
   right: 0;
 }
@@ -341,7 +341,7 @@ section:not(#about) {
   display: inline-block;
   width: 28px;
   height: 2px;
-  background-color: white;
+  background-color: #fff;
   transform: rotate(90deg);
 }
 
@@ -353,7 +353,7 @@ section:not(#about) {
 
 .answer {
   padding-bottom: 37px;
-  border-bottom: solid white 1px;
+  border-bottom: solid #fff 1px;
 }
 
 /* Devicesセクション */
@@ -398,7 +398,7 @@ section:not(#about) {
   box-shadow: 0px 0px 25px rgba(0, 0, 0, 0.1);
   border-radius: 8px;
   position: relative;
-  background-color: white;
+  background-color: #fff;
 }
 
 .devices-item-content {
@@ -425,7 +425,7 @@ section:not(#about) {
 /* bottom */
 .cv {
   background-color: #ec5f5c;
-  color: white;
+  color: #fff;
 }
 
 .cv-container {
@@ -469,7 +469,7 @@ section:not(#about) {
 
 /* フッター */
 footer {
-  color: white;
+  color: #fff;
   background-color: #2f2e41;
 }
 
@@ -500,7 +500,7 @@ footer {
   content: "";
   width: 1px;
   height: 15px;
-  background-color: white;
+  background-color: #fff;
   display: block;
   margin-left: 20px;
 }
