@@ -260,7 +260,11 @@
     padding-bottom: 28px;
   }
 
-  .question::before {
+  .question:first-child::before {
+    width: 20px;
+  }
+  
+  .question:not(:first-child)::before {
     width: 20px;
   }
 
